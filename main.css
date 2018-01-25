@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+
+html {
+    height: 100%;
+}
+
+body {
+  background-color: #d0cbc7;
+  position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  font-family:'Allerta Stencil';
+  height: 100%;
+}
+
+#card {
+	display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #d0cbc7;
+  width: 465px;
+	height: 300px;
+  background-color: #eeeeee;
+  box-shadow:0 0 3px rgba(0,0,0,0.15);
+}
+
+#top_part {
+  display: flex;
+  height: 100px;
+}
+
+#top_left {
+  width: 90px;
+}
+
+#top_right {
+    padding-left: 16px;
+}
+
+#name {
+    margin-top: 10px;
+  font-size: 55px;
+}
+
+#sub {
+  font-size: 19px;
+  margin-top: -10px;
+  margin-left: 3px;
+}
+
+#bottom_part {
+  display: flex;
+  justify-content: space-between;
+}
+
+#bottom_left {
+  font-size: 23px;
+}
+
+#bottom_right {
+  width: 200px;
+  text-align: right;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 27px;
+}
+
+li:first-child {
+  padding-bottom: 25px;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#me_img {
+    height: 170px;
+        position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+}
+
+#logo_box {
+        border-right: solid 7px #11a0be;
+        border-bottom: solid 7px #11a0be;
+        margin: 0 5px 0 0;
+        padding: 0 0 13px 0;
+
+}
+
+#logo {
+    width: 56px;
+    margin-top: 27px;
+    margin-left: 10px;
+}
