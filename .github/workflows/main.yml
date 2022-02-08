@@ -27,7 +27,7 @@ jobs:
         uses: shimataro/ssh-key-action@v2
         with:
           key: ${{ secrets.SSH_UPLOADER_KEY }}
-          known_hosts: AAAAC3NzaC1lZDI1NTE5AAAAILWbEFyXMdC68zAhoz9M1a7RQY8yXWfsKHoq0xSvXkdw
+          known_hosts: ${{ secrets.KNOWN_HOSTS_OF_TARGET }}
           if_key_exists: fail
 
       - name: SFTP Deploy
