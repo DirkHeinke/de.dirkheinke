@@ -30,6 +30,6 @@ jobs:
         with:
           username: uploader
           server: dirkheinke.de
-          ssh_private_key: SSH_UPLOADER_KEY
+          ssh_private_key: ${{ secrets.SSH_UPLOADER_KEY }} 
           remote_path: content/dirkheinke.de 
         
